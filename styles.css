@@ -3,6 +3,7 @@
 :root {
     --primary-color:#EA5F8A;
     --light-color:#EAC1D2;
+    --third-color:#D0A9B6;
 }
 body{
     font-family: 'Arvo', serif;
@@ -77,3 +78,13 @@ hr{
 .head .highlights{
     color: #EA5F8A;
 }
+ /**section**/
+ .section{
+    padding: 2rem;
+ }
+ .section h1{
+    text-align: center;
+ }
+ .ow{
+    background-color:var(--third-color);
+ }
